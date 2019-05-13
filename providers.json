@@ -5,6 +5,11 @@
 		"response":["There isn't a GitHub Pages site here.", "For root URLs (like http://example.com/) you must provide an index.html file"]
 	},
 	{
+		"name":"ngrok", 
+		"cname":["ngrok.io"], 
+		"response":["Tunnel", "not found"]
+	},
+	{
 		"name":"heroku", 
 		"cname":["herokudns.com", "herokussl.com", "herokuapp.com"], 
 		"response":["There's nothing here, yet.", "herokucdn.com/error-pages/no-such-app.html", "<title>No such app</title>"]
@@ -210,12 +215,12 @@
 		"response":["<h1>Oops! We couldn&#8217;t find that page.</h1>"]
 	},
 	{
-		"name":"activecompaign",
+		"name":"activecampaign",
 		"cname":["activehosted.com"],
 		"response":["alt=\"LIGHTTPD - fly light.\""]
 	},
 	{
-		"name":"compaignmonitor",
+		"name":"campaignmonitor",
 		"cname":["createsend.com"],
 		"response":["Double check the URL or <a href=\"mailto:help@createsend.com"]
 	},
